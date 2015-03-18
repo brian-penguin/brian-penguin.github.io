@@ -95,8 +95,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
 
+#hello{
+    font-size: 50px;
+}
 
+#name{
+    margin-top: -50px;
+    margin-bottom: -30px;
+    font-size: 100px;
+    color: #00AA9A;
+}
+
+.profpic{
+   width: 275px;
+   height: auto;
+   border-radius: 300px;
+   margin-top: 30px;
+}
+
+#experience ul li{
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+}
+
+.goals{
+   color: #00AA9A;
+}
+
+.accounts ul li{
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+}
 
 
 

@@ -132,9 +132,11 @@ textarea {
     display: inline;
     padding: 1em;
     margin: 1em;
-    text-decoration: none;
 }
 
+a{
+  text-decoration: none;
+}
 
 
 

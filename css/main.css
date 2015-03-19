@@ -136,8 +136,18 @@ textarea {
 
 a{
   text-decoration: none;
+  color: black;
 }
 
+a:hover{
+   color: #00AA9A;
+   font-size: 20px;
+}
+
+a:active{
+   color: #00AA9A;
+   font-size: 20px;
+}
 
 
 

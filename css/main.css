@@ -142,10 +142,13 @@ li {
   margin: 1em;
 }
 
-.goals {
+.goals-wrapper {
   color: #00AA9A;
-  font-size: 20px;
   padding: 1em;
+}
+
+.goals{
+  font-size: 25px;
   text-align: justify;
 }
 
@@ -188,6 +191,9 @@ a:active {
     float: center;
   }
 
+  .goals{
+    font-size: 20px;
+  }
   .accounts li{
     padding: 0.5em;
   }

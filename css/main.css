@@ -95,61 +95,80 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.content{
+.content {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
 
-#hello{
+#hello {
     font-size: 50px;
 }
 
-#name{
+#name {
     margin-top: -50px;
     margin-bottom: -30px;
     font-size: 100px;
     color: #00AA9A;
 }
 
-.profpic{
+.profpic {
    width: 275px;
    height: auto;
    border-radius: 300px;
    margin-top: 30px;
 }
 
-#experience ul li{
-    display: inline;
-    padding: 1em;
-    margin: 1em;
+li {
+  display: inline;
+  padding: 1em;
+  margin: 1em;
 }
 
-.goals{
+.goals {
    color: #00AA9A;
 }
 
-.accounts ul li{
-    display: inline;
-    padding: 1em;
-    margin: 1em;
-}
-
-a{
+a {
   text-decoration: none;
   color: black;
   font-size: 20px;
 }
 
-a:hover{
+a:hover {
    color: #00AA9A;
-   font-size: 20px;
 }
 
-a:active{
+a:active {
    color: #00AA9A;
-   font-size: 20px;
 }
 
+@media only screen and (max-device-width: 740px) {
+  .content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #name {
+    font-size: 70px;
+  }
+
+  #experience {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  li {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    float: center;
+  }
+}
 
 
 

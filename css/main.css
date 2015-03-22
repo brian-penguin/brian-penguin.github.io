@@ -100,11 +100,11 @@ textarea {
     font-family: 'Raleway', sans-serif;
 }
 
-#hello {
+.hello {
     font-size: 50px;
 }
 
-#name {
+.name {
     margin-top: -50px;
     margin-bottom: -30px;
     font-size: 100px;
@@ -112,10 +112,28 @@ textarea {
 }
 
 .profpic {
-   width: 275px;
-   height: auto;
-   border-radius: 300px;
-   margin-top: 30px;
+  width: 275px;
+  height: auto;
+  border-radius: 300px;
+  margin-top: 30px;
+
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+
+  overflow:hidden;
+}
+
+.profpic:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
 }
 
 li {
@@ -125,7 +143,10 @@ li {
 }
 
 .goals {
-   color: #00AA9A;
+  color: #00AA9A;
+  font-size: 20px;
+  padding: 1em;
+  text-align: justify;
 }
 
 a {
@@ -135,11 +156,15 @@ a {
 }
 
 a:hover {
-   color: #00AA9A;
+  color: #00AA9A;
 }
 
 a:active {
-   color: #00AA9A;
+  color: #00AA9A;
+}
+
+.arrow {
+  display: none;
 }
 
 @media only screen and (max-device-width: 740px) {
@@ -148,7 +173,7 @@ a:active {
     padding: 10px;
   }
 
-  #name {
+  .name {
     font-size: 70px;
   }
 
@@ -165,6 +190,16 @@ a:active {
 
   .accounts li{
     padding: 0.5em;
+  }
+
+  .arrow {
+    display: block;
+    width:100%;
+    margin-top: 50px;
+  }
+
+  i:active {
+    color: #00AA9A;
   }
 }
 

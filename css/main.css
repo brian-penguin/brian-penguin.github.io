@@ -98,6 +98,9 @@ textarea {
 .content {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    width:80%;
+    margin:10%;
+    float: center;
 }
 
 .hello {
@@ -174,6 +177,7 @@ a:active {
   .content {
     width: 90%;
     padding: 10px;
+    margin: 0px;
   }
 
   .name {

@@ -158,9 +158,13 @@ a:active {
 
   li {
     display: block;
-    padding: 0.2em;
+    padding: 0.1em;
     margin: 0px;
     float: center;
+  }
+
+  .accounts li{
+    padding: 0.5em;
   }
 }
 

@@ -201,6 +201,7 @@ a:active {
   }
   .accounts li{
     padding: 0.5em;
+    font-size: 20px;
   }
 
   .arrow {
